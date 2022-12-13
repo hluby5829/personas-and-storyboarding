@@ -2,6 +2,7 @@ body {
     height: 100vh;
     background-color: #f8e9ff;
     font-family: 'Montserrat';
+    font-size: large;
     padding: 0;
     margin: 0;
 }
@@ -12,6 +13,10 @@ li {
 
 .answer {
     font-size: medium;
+}
+
+.bottom {
+    padding-bottom: 5%;
 }
 
 .col {
@@ -60,11 +65,13 @@ li {
 
 .section1 {
     background-color: white;
-    padding: 3%;
+    padding: 6%;
+    margin: 4rem;
+    border-radius: 5rem;
 }
 
 .section2 {
-    padding: 3%;
+    padding: 3% 6% 3% 6%;
 }
 
 .storyboard-panel {
@@ -75,4 +82,8 @@ li {
 .storyboard-img {
     width: 100%;
     border-radius: 10px;
+}
+
+.top {
+    margin-top: 0;
 }
